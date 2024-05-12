@@ -1,0 +1,180 @@
+@media screen and (max-width: 1100px) {
+  header {
+    padding-left: 10px;
+  }
+  .back h1 {
+    font-size: 80px;
+  }
+  .back h3 {
+    font-size: 30px;
+  }
+  .back p {
+    font-size: 15px;
+  }
+  .me .block img {
+    width: 15%;
+  }
+  .me .block1 h2 {
+    font-size: 25px;
+  }
+  .me .block1 p {
+    font-size: 20px;
+  }
+  .ser .services .box {
+    height: 300px;
+  }
+  .project {
+    height: 650px;
+  }
+  .project .all .cent1 {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+  .project .all .cent1 img {
+    width: 45%;
+    height: 150px;
+  }
+  .container .form-container {
+    width: 70%;
+  }
+  .container .form-container .info-container .contact-info p {
+    font-size: 20px;
+  }
+  .foot .foot-left p, .foot .foot-right ul li a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 788px) {
+  header {
+    padding-left: 20px;
+  }
+  .back h1, .back h3, .back p {
+    padding-bottom: 20px;
+  }
+  .me {
+    height: 500px;
+  }
+  .me .block {
+    flex-direction: column;
+  }
+  .me .block .block1 p {
+    font-size: 15px;
+  }
+  .ser .services .box {
+    height: 150px;
+    width: 25%;
+  }
+  .ser .services .box h2, .ser .services .box p {
+    font-size: 8px;
+  }
+  .project {
+    height: 600px;
+  }
+  .project .all .cent1 img {
+    height: 300px;
+  }
+  .container {
+    height: 500px;
+  }
+  .container .form-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 605px) {
+  header {
+    flex-direction: column;
+    height: 90px;
+  }
+  .me {
+    height: 550px;
+  }
+  .me .block h2 {
+    font-size: 20px;
+  }
+  .me .block .block1 {
+    margin: 20px;
+  }
+  .me .block .block1 p {
+    width: 95%;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  .me .block img {
+    width: 30%;
+  }
+  .ser {
+    height: 650px;
+  }
+  .ser .services {
+    justify-content: center;
+  }
+  .ser .services .box {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  .ser .services .box h2 {
+    font-size: 10px;
+  }
+  .ser .services .box p {
+    font-size: 8px;
+  }
+  .container .form-container {
+    flex-direction: column;
+  }
+  .container .form-container form {
+    margin-right: 25px;
+  }
+  .container .form-container form label, .container .form-container form input {
+    font-size: 15px;
+  }
+  .container .form-container button {
+    width: 50px;
+  }
+  .container .form-container .info-container .contact-info p {
+    font-size: 15px;
+  }
+  .foot {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 330px) {
+  header {
+    justify-content: center;
+    height: 200px;
+  }
+  .list ul li a {
+    display: block;
+    margin-left: 30px;
+  }
+  .back .back1 h1 {
+    font-size: 50px;
+  }
+  .back .back1 h3 {
+    font-size: 20px;
+  }
+  .back .back1 p {
+    font-size: 10px;
+  }
+  .me {
+    height: 700px;
+  }
+  .project .all .cent1 img {
+    width: 200px;
+  }
+  .container .form-container form {
+    justify-content: center;
+  }
+  .container .form-container form input, .container .form-container form label {
+    font-size: 10px;
+  }
+  .container .form-container .info-container .contact-info {
+    justify-content: center;
+  }
+  .container .form-container .info-container .contact-info p {
+    font-size: 10px;
+  }
+  .foot .foot-left p, .foot .foot-right ul li a {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
